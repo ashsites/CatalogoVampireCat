@@ -5,40 +5,40 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
-  { nombre: "Prensas de estrella blancas y negras", precio: 600, detalle: "por 2 unidades", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Estrellitas sueltas.jpeg" },
-  { nombre: "Pliego de prensas de estrella", precio: 1300, detalle: "todo el pliego", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Estrellitas conjunto.jpeg" },
-  { nombre: "Lazos rosados con perlitas", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos rosados con perlitas.jpeg" },
-  { nombre: "Lazos blancos con perlitas", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos blancos con perlitas.jpeg" },
-  { nombre: "Lazos fucsia con florecita", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos fucsia con flores.jpeg" },
-  { nombre: "Lazos rojos con florecita", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos rojos con flores.jpeg" },
-  { nombre: "Lazos lilas con florecita", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos lilas con flores.jpeg" },
-  { nombre: "Lazos morados con florecita", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos morados con flores.jpeg" },
-  { nombre: "Lazos rosados con florecita", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos rosados con flores.jpeg" },
-  { nombre: "Lazos blancos con florecita", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos blancos con flores.jpeg" },
-  { nombre: "Lazos rosados con dona", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos rosa con dona.jpeg" },
-  { nombre: "Lazos celestes con dona", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos celeste con dona.jpeg" },
-  { nombre: "Lazos fucsia con dona", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos fucsia con dona.jpeg" },
-  { nombre: "Lazos rojos con dona", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos rojo con dona.jpeg" },
-  { nombre: "Lazos lilas con dona", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos lila con dona.jpeg" },
-  { nombre: "Lazos rosa pastel con flor", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos rosa con flor.jpeg" },
-  { nombre: "Lazos color piel con flor", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos piel con flor.jpeg" },
-  { nombre: "Lazos rosa chicle con flor", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos rosados con flor.jpeg" },
-  { nombre: "Lazos rojos con flor", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos rojos con flor.jpeg" },
-  { nombre: "Lazos celestes con flor", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos celestes con flor.jpeg" },
-  { nombre: "Lazos navideños verdes con Santa", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 4.jpeg" },
-  { nombre: "Lazos navideños blancos con bastones", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 5.jpeg" },
-  { nombre: "Lazos navideños rojos con muñecos de nieve", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 6.jpeg" },
-  { nombre: "Lazos navideños rojos con arbolitos y renos", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 7.jpeg" },
-  { nombre: "Lazos navideños grandes blancos con muñeco de nieve", precio: 1500, detalle: "cada uno", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 1.jpeg" },
-  { nombre: "Lazos navideños grandes rojos con muñeco de nieve", precio: 1500, detalle: "cada uno", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 2.jpeg" },
-  { nombre: "Lazos navideños grandes verdes con muñeco de nieve", precio: 1500, detalle: "cada uno", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 3.jpeg" },
-  { nombre: "Lazos mini rosados y blancos", precio: 600, detalle: "cada uno, o los 4 por ₡2.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos rosados y blancos.jpeg" },
-  { nombre: "Prensas grandes con puntitos en colores", precio: 1500, detalle: "cada una", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensas grandes 1.jpeg" },
-  { nombre: "Prensas grandes con puntitos negras y mostaza", precio: 1500, detalle: "cada una", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensas grandes 2.jpeg" },
-  { nombre: "Pulseras navideñas doradas con dijes", precio: 1500, detalle: "cada una", cat: "pulseras", nuevo: true, img: "imagenes-catalogo/Pandoras doradas.jpeg" },
-  { nombre: "Pulseras navideñas plateadas con dijes", precio: 1500, detalle: "cada una", cat: "pulseras", nuevo: true, img: "imagenes-catalogo/Pandoras grises.jpeg" },
-  { nombre: "Prensitas Hello Kitty negras", precio: 600, detalle: "cada una, o las 5 por ₡2.000", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensitas hello kitty negras.jpeg" },
-  { nombre: "Prensitas Hello Kitty transparentes", precio: 600, detalle: "cada una, o las 5 por ₡2.000", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensitas hello kitty transparentes.jpeg" },
+  { nombre: "Prensas de estrella blancas y negras", precio: 600, detalle: "por 2 unidades", cat: "prensas", nuevo: true, img: "imagenes-catalogo/estrellitas-sueltas.jpeg" },
+  { nombre: "Pliego de prensas de estrella", precio: 1300, detalle: "todo el pliego", cat: "prensas", nuevo: true, img: "imagenes-catalogo/estrellitas-conjunto.jpeg" },
+  { nombre: "Lazos rosados con perlitas", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-rosados-con-perlitas.jpeg" },
+  { nombre: "Lazos blancos con perlitas", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-blancos-con-perlitas.jpeg" },
+  { nombre: "Lazos fucsia con florecita", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-fucsia-con-flores.jpeg" },
+  { nombre: "Lazos rojos con florecita", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-rojos-con-flores.jpeg" },
+  { nombre: "Lazos lilas con florecita", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-lilas-con-flores.jpeg" },
+  { nombre: "Lazos morados con florecita", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-morados-con-flores.jpeg" },
+  { nombre: "Lazos rosados con florecita", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-rosados-con-flores.jpeg" },
+  { nombre: "Lazos blancos con florecita", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-blancos-con-flores.jpeg" },
+  { nombre: "Lazos rosados con dona", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-rosa-con-dona.jpeg" },
+  { nombre: "Lazos celestes con dona", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-celeste-con-dona.jpeg" },
+  { nombre: "Lazos fucsia con dona", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-fucsia-con-dona.jpeg" },
+  { nombre: "Lazos rojos con dona", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-rojo-con-dona.jpeg" },
+  { nombre: "Lazos lilas con dona", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-lila-con-dona.jpeg" },
+  { nombre: "Lazos rosa pastel con flor", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-rosa-con-flor.jpeg" },
+  { nombre: "Lazos color piel con flor", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-piel-con-flor.jpeg" },
+  { nombre: "Lazos rosa chicle con flor", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-rosados-con-flor.jpeg" },
+  { nombre: "Lazos rojos con flor", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-rojos-con-flor.jpeg" },
+  { nombre: "Lazos celestes con flor", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-celestes-con-flor.jpeg" },
+  { nombre: "Lazos navideños verdes con Santa", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-navidad-4.jpeg" },
+  { nombre: "Lazos navideños blancos con bastones", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-navidad-5.jpeg" },
+  { nombre: "Lazos navideños rojos con muñecos de nieve", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-navidad-6.jpeg" },
+  { nombre: "Lazos navideños rojos con arbolitos y renos", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-navidad-7.jpeg" },
+  { nombre: "Lazos navideños grandes blancos con muñeco de nieve", precio: 1500, detalle: "cada uno", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-navidad-1.jpeg" },
+  { nombre: "Lazos navideños grandes rojos con muñeco de nieve", precio: 1500, detalle: "cada uno", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-navidad-2.jpeg" },
+  { nombre: "Lazos navideños grandes verdes con muñeco de nieve", precio: 1500, detalle: "cada uno", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-navidad-3.jpeg" },
+  { nombre: "Lazos mini rosados y blancos", precio: 600, detalle: "cada uno, o los 4 por ₡2.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-rosados-blancos.jpeg" },
+  { nombre: "Prensas grandes con puntitos en colores", precio: 1500, detalle: "cada una", cat: "prensas", nuevo: true, img: "imagenes-catalogo/prensas-grandes-1.jpeg" },
+  { nombre: "Prensas grandes con puntitos negras y mostaza", precio: 1500, detalle: "cada una", cat: "prensas", nuevo: true, img: "imagenes-catalogo/prensas-grandes-2.jpeg" },
+  { nombre: "Pulseras navideñas doradas con dijes", precio: 1500, detalle: "cada una", cat: "pulseras", nuevo: true, img: "imagenes-catalogo/pandoras-doradas.jpeg" },
+  { nombre: "Pulseras navideñas plateadas con dijes", precio: 1500, detalle: "cada una", cat: "pulseras", nuevo: true, img: "imagenes-catalogo/pandoras-grises.jpeg" },
+  { nombre: "Prensitas Hello Kitty negras", precio: 600, detalle: "cada una, o las 5 por ₡2.000", cat: "prensas", nuevo: true, img: "imagenes-catalogo/prensitas-hello-kitty-negras.jpeg" },
+  { nombre: "Prensitas Hello Kitty transparentes", precio: 600, detalle: "cada una, o las 5 por ₡2.000", cat: "prensas", nuevo: true, img: "imagenes-catalogo/prensitas-hello-kitty-transparentes.jpeg" },
 ];
 
 const NOMBRES_CAT = {
@@ -100,6 +100,8 @@ const grid = $("#productGrid");
 grid.innerHTML = PRODUCTOS.map(tarjeta).join("");
 const cards = $$(".card", grid);
 
+
+/* ---------- Ver imagen en grande ---------- */
 const estiloLb = document.createElement("style");
 estiloLb.textContent = `
   .card:has(.card__media img) { cursor: zoom-in; }
