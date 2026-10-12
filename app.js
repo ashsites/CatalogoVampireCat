@@ -37,8 +37,8 @@ const PRODUCTOS = [
   { nombre: "Prensas grandes con puntitos negras y mostaza", precio: 1500, detalle: "cada una", cat: "prensas", nuevo: true, img: "imagenes-catalogo/prensas-grandes-2.jpeg" },
   { nombre: "Pulseras navideñas doradas", precio: 1500, detalle: "cada una", cat: "pulseras", nuevo: true, img: "imagenes-catalogo/pandoras-doradas.jpeg" },
   { nombre: "Pulseras navideñas plateadas", precio: 1500, detalle: "cada una", cat: "pulseras", nuevo: true, img: "imagenes-catalogo/pandoras-grises.jpeg" },
-  { nombre: "Prensitas Hello Kitty negras", precio: 600, detalle: "cada una, o las 5 por ₡2.000", cat: "prensas", nuevo: true, img: "imagenes-catalogo/prensitas-hello-kitty-negras.jpeg" },
-  { nombre: "Prensitas Hello Kitty transparentes", precio: 600, detalle: "cada una, o las 5 por ₡2.000", cat: "prensas", nuevo: true, img: "imagenes-catalogo/prensitas-hello-kitty-transparentes.jpeg" },
+  { nombre: "Prensitas Hello Kitty negras", precio: 600, detalle: "cada una o las 5 por ₡2.000", cat: "prensas", nuevo: true, img: "imagenes-catalogo/prensitas-hello-kitty-negras.jpeg" },
+  { nombre: "Prensitas Hello Kitty transparentes", precio: 600, detalle: "cada una o las 5 por ₡2.000", cat: "prensas", nuevo: true, img: "imagenes-catalogo/prensitas-hello-kitty-transparentes.jpeg" },
 ];
 
 const NOMBRES_CAT = {
