@@ -25,18 +25,18 @@ const PRODUCTOS = [
   { nombre: "Lazos rosa chicle con flor", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos rosados con flor.jpeg" },
   { nombre: "Lazos rojos con flor", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos rojos con flor.jpeg" },
   { nombre: "Lazos celestes con flor", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos celestes con flor.jpeg" },
-  { nombre: "Lazos navideños verdes", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 4.jpeg" },
-  { nombre: "Lazos navideños blancos", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 5.jpeg" },
-  { nombre: "Lazos navideños rojos", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 6.jpeg" },
-  { nombre: "Lazos navideños rojos", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 7.jpeg" },
-  { nombre: "Lazos navideños grandes blancos", precio: 1500, detalle: "cada uno", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 1.jpeg" },
-  { nombre: "Lazos navideños grandes rojos", precio: 1500, detalle: "cada uno", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 2.jpeg" },
-  { nombre: "Lazos navideños grandes verdes", precio: 1500, detalle: "cada uno", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 3.jpeg" },
+  { nombre: "Lazos navideños verdes con Santa", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 4.jpeg" },
+  { nombre: "Lazos navideños blancos con bastones", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 5.jpeg" },
+  { nombre: "Lazos navideños rojos con muñecos de nieve", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 6.jpeg" },
+  { nombre: "Lazos navideños rojos con arbolitos y renos", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 7.jpeg" },
+  { nombre: "Lazos navideños grandes blancos con muñeco de nieve", precio: 1500, detalle: "cada uno", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 1.jpeg" },
+  { nombre: "Lazos navideños grandes rojos con muñeco de nieve", precio: 1500, detalle: "cada uno", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 2.jpeg" },
+  { nombre: "Lazos navideños grandes verdes con muñeco de nieve", precio: 1500, detalle: "cada uno", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos navidad 3.jpeg" },
   { nombre: "Lazos mini rosados y blancos", precio: 600, detalle: "cada uno, o los 4 por ₡2.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Lazos rosados y blancos.jpeg" },
   { nombre: "Prensas grandes con puntitos en colores", precio: 1500, detalle: "cada una", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensas grandes 1.jpeg" },
   { nombre: "Prensas grandes con puntitos negras y mostaza", precio: 1500, detalle: "cada una", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensas grandes 2.jpeg" },
-  { nombre: "Pulseras navideñas doradas", precio: 1500, detalle: "cada una", cat: "pulseras", nuevo: true, img: "imagenes-catalogo/Pandoras doradas.jpeg" },
-  { nombre: "Pulseras navideñas plateadas", precio: 1500, detalle: "cada una", cat: "pulseras", nuevo: true, img: "imagenes-catalogo/Pandoras grises.jpeg" },
+  { nombre: "Pulseras navideñas doradas con dijes", precio: 1500, detalle: "cada una", cat: "pulseras", nuevo: true, img: "imagenes-catalogo/Pandoras doradas.jpeg" },
+  { nombre: "Pulseras navideñas plateadas con dijes", precio: 1500, detalle: "cada una", cat: "pulseras", nuevo: true, img: "imagenes-catalogo/Pandoras grises.jpeg" },
   { nombre: "Prensitas Hello Kitty negras", precio: 600, detalle: "cada una, o las 5 por ₡2.000", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensitas hello kitty negras.jpeg" },
   { nombre: "Prensitas Hello Kitty transparentes", precio: 600, detalle: "cada una, o las 5 por ₡2.000", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensitas hello kitty transparentes.jpeg" },
 ];
@@ -102,7 +102,7 @@ const cards = $$(".card", grid);
 
 const estiloLb = document.createElement("style");
 estiloLb.textContent = `
-  .card__media img { cursor: zoom-in; }
+  .card:has(.card__media img) { cursor: zoom-in; }
   .lightbox { position: fixed; inset: 0; z-index: 1000; display: flex; align-items: center; justify-content: center; gap: 12px; padding: 64px 12px 24px; background: rgba(18, 10, 18, .9); }
   .lightbox[hidden] { display: none; }
   .lightbox__fig { margin: 0; max-width: min(92vw, 900px); display: flex; flex-direction: column; align-items: center; gap: 12px; }
@@ -173,8 +173,8 @@ function moverLb(d) {
 }
 
 grid.addEventListener("click", (e) => {
-  const img = e.target.closest(".card__media img");
-  if (img) abrirLb(img.closest(".card"));
+  const card = e.target.closest(".card");
+  if (card && $(".card__media img", card)) abrirLb(card);
 });
 lbClose.addEventListener("click", cerrarLb);
 lbPrev.addEventListener("click", () => moverLb(-1));
