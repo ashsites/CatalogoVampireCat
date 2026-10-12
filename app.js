@@ -32,7 +32,7 @@ const PRODUCTOS = [
   { nombre: "Lazos navideños grandes blancos", precio: 1500, detalle: "cada uno", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-navidad-1.jpeg" },
   { nombre: "Lazos navideños grandes rojos", precio: 1500, detalle: "cada uno", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-navidad-2.jpeg" },
   { nombre: "Lazos navideños grandes verdes", precio: 1500, detalle: "cada uno", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-navidad-3.jpeg" },
-  { nombre: "Lazos mini rosados y blancos", precio: 600, detalle: "cada uno, o los 4 por ₡2.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-rosados-blancos.jpeg" },
+  { nombre: "Lazos mini rosados y blancos", precio: 600, detalle: "cada uno o los 4 por ₡2.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/lazos-rosados-blancos.jpeg" },
   { nombre: "Prensas grandes con puntitos en colores", precio: 1500, detalle: "cada una", cat: "prensas", nuevo: true, img: "imagenes-catalogo/prensas-grandes-1.jpeg" },
   { nombre: "Prensas grandes con puntitos negras y mostaza", precio: 1500, detalle: "cada una", cat: "prensas", nuevo: true, img: "imagenes-catalogo/prensas-grandes-2.jpeg" },
   { nombre: "Pulseras navideñas doradas", precio: 1500, detalle: "cada una", cat: "pulseras", nuevo: true, img: "imagenes-catalogo/pandoras-doradas.jpeg" },
