@@ -212,7 +212,8 @@ function aplicar() {
   });
 
   emptyMsg.hidden = visibles > 0;
-  catalogTitle.textContent = q ? `Resultados para “${searchInput.value.trim()}”` : (TITULOS[filtro] || "Catálogo");
+  const enCat = filtro !== "todos" ? ` en ${TITULOS[filtro] || "esta categoría"}` : "";
+  catalogTitle.textContent = q ? `Resultados para “${searchInput.value.trim()}”${enCat}` : (TITULOS[filtro] || "Catálogo");
   $$(".cat").forEach((b) => b.classList.toggle("is-active", b.dataset.filter === filtro));
 }
 
@@ -256,7 +257,8 @@ function irA(vista) {
 $$(".cat").forEach((btn) => {
   btn.addEventListener("click", () => {
     const f = btn.dataset.filter;
-    elegirFiltro(vistaActual === "tienda" && filtro === f ? "todos" : f);
+    filtro = vistaActual === "tienda" && filtro === f ? "todos" : f;
+    aplicar();
     if (vistaActual !== "tienda") irA("tienda");
   });
 });
@@ -264,7 +266,7 @@ $$(".cat").forEach((btn) => {
 $("#heroBtn").addEventListener("click", () => elegirFiltro("todos"));
 $$('.nav__link[data-route="tienda"]').forEach((a) => a.addEventListener("click", () => elegirFiltro("todos")));
 
-searchInput.addEventListener("input", () => { filtro = "todos"; aplicar(); });
+searchInput.addEventListener("input", aplicar);
 searchInput.addEventListener("keydown", (e) => {
   if (e.key === "Escape" && searchInput.value) { searchInput.value = ""; aplicar(); }
 });
