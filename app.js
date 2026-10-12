@@ -196,7 +196,7 @@ const emptyMsg = $("#emptyMsg");
 const catalogTitle = $("#catalogTitle");
 const searchInput = $("#searchInput");
 
-const TITULOS = { todos: "Todo el catálogo", nuevos: "Nuevos ingresos", ...NOMBRES_CAT };
+const TITULOS = { todos: "Todo el catálogo", ...NOMBRES_CAT };
 let filtro = "todos";
 
 function aplicar() {
@@ -204,7 +204,7 @@ function aplicar() {
   let visibles = 0;
 
   cards.forEach((c) => {
-    const okCat = filtro === "todos" || (filtro === "nuevos" ? c.dataset.new === "1" : c.dataset.cat === filtro);
+    const okCat = filtro === "todos" || c.dataset.cat === filtro;
     const okTxt = !q || normalizar(c.dataset.name).includes(q);
     const mostrar = okCat && okTxt;
     c.hidden = !mostrar;
