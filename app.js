@@ -100,8 +100,6 @@ const grid = $("#productGrid");
 grid.innerHTML = PRODUCTOS.map(tarjeta).join("");
 const cards = $$(".card", grid);
 
-
-/* ---------- Ver imagen en grande ---------- */
 const estiloLb = document.createElement("style");
 estiloLb.textContent = `
   .card:has(.card__media img) { cursor: zoom-in; }
