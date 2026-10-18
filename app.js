@@ -18,8 +18,8 @@ const PRODUCTOS = [
   { nombre: "Prensitas de estrellas y clic", precio: 2000, detalle: "el pliego", cat: "prensas", img: "imagenes-catalogo/Estrellitas-prensitas.jpeg" },
   { nombre: "Prensitas de Hello Kitty", precio: 600, detalle: "cada una o las 4 unidades por ₡2.000", cat: "prensas", img: "imagenes-catalogo/Prensitas-HelloKitty.jpeg" },
   { nombre: "Prensas de Hello Kitty", precio: 1000, detalle: "cada una", cat: "prensas", img: "imagenes-catalogo/Prensas-hellokitty.jpeg" },
-  { nombre: "Prensas con puntitos", precio: 1500, detalle: "cada una", cat: "prensas", img: "imagenes-catalogo/Prensas-grandes.jpeg" },
-  { nombre: "Vinchas con puntitos", precio: 1500, detalle: "cada una", cat: "vinchas", img: "imagenes-catalogo/Vinchas.jpeg" },
+  { nombre: "Prensas polka dot", precio: 1500, detalle: "cada una", cat: "prensas", img: "imagenes-catalogo/Prensas-grandes.jpeg" },
+  { nombre: "Vinchas polka dot", precio: 1500, detalle: "cada una", cat: "vinchas", img: "imagenes-catalogo/Vinchas.jpeg" },
 ];
 
 const NOMBRES_CAT = {
