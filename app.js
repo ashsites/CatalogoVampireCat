@@ -17,7 +17,7 @@ const PRODUCTOS = [
   { nombre: "Lazos con flores o donitas", precio: 600, detalle: "o 2 unidades por ₡1.000", cat: "lazos", img: "imagenes-catalogo/Prensitas-floresydonas.jpeg" },
   { nombre: "Prensitas de estrella", precio: 600, detalle: "por 2 unidades", cat: "prensas", img: "imagenes-catalogo/Prensitas-estrellas.jpeg" },
   { nombre: "Prensitas clic", precio: 600, detalle: "por 2 unidades", cat: "prensas", img: "imagenes-catalogo/Prensitas-normales.jpeg" },
-  { nombre: "Prensitas de Hello Kitty", precio: 600, detalle: "cada una o las 3 unidades por ₡1.500", cat: "prensas", img: "imagenes-catalogo/Prensitas-HelloKitty.jpeg" },
+  { nombre: "Prensitas de Hello Kitty", precio: 600, detalle: "cada una o las 4 unidades por ₡2.000", cat: "prensas", img: "imagenes-catalogo/Prensitas-HelloKitty.jpeg" },
   { nombre: "Prensas de Hello Kitty", precio: 1000, detalle: "cada una", cat: "prensas", img: "imagenes-catalogo/Prensas-hellokitty.jpeg" },
   { nombre: "Prensas con puntitos", precio: 1500, detalle: "cada una", cat: "prensas", img: "imagenes-catalogo/Prensas-grandes.jpeg" },
   { nombre: "Vinchas con puntitos", precio: 1500, detalle: "cada una", cat: "vinchas", img: "imagenes-catalogo/Vinchas.jpeg" },
