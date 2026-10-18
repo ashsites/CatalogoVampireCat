@@ -312,8 +312,15 @@ h1, h2, h3, p { margin: 0; }
 .footer__tagline { display: flex; align-items: center; gap: 16px; font-size: .78rem; }
 .footer__cat { width: 44px; height: 44px; color: var(--pink-100); flex: none; }
 
-.footer__bottom { background: var(--pink-100); color: var(--ink); font-size: .72rem; }
+.footer__bottom { background: var(--pink-100); color: var(--ink); font-size: .72rem; line-height: 1.7; }
 .footer__bottom-inner { padding: 16px 0; text-align: center; }
+.footer-brand {
+  font-family: "Orbitron", "Arial Black", sans-serif;
+  font-size: .9em;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
 
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s, transform .6s; }
 .reveal.is-visible { opacity: 1; transform: none; }
