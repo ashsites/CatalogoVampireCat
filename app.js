@@ -5,22 +5,22 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
-  { nombre: "Prensas navideñas grandes verdes", precio: 1500, detalle: "cada una", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensas-navidad3.jpeg" },
-  { nombre: "Prensas navideñas grandes rojas", precio: 1500, detalle: "cada una", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensas-navidad2.jpeg" },
-  { nombre: "Prensas navideñas grandes blancas con rojo", precio: 1500, detalle: "cada una", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensas-navidad1.jpeg" },
-  { nombre: "Prensitas navideñas estampadas", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensas-navidad.jpeg" }, // 
+  { nombre: "Prensas navideñas grandes verdes", precio: 1500, detalle: "cada una", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Prensas-navidad3.jpeg" },
+  { nombre: "Prensas navideñas grandes rojas", precio: 1500, detalle: "cada una", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Prensas-navidad2.jpeg" },
+  { nombre: "Prensas navideñas grandes blancas con rojo", precio: 1500, detalle: "cada una", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Prensas-navidad1.jpeg" },
+  { nombre: "Prensitas navideñas estampadas", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Prensas-navidad.jpeg" },
   { nombre: "Pulseras navideñas doradas", precio: 1500, detalle: "cada una", cat: "pulseras", nuevo: true, img: "imagenes-catalogo/Pandoras-doradas.jpeg" },
   { nombre: "Pulseras navideñas plateadas", precio: 1500, detalle: "cada una", cat: "pulseras", nuevo: true, img: "imagenes-catalogo/Pandoras-plateadas.jpeg" },
-  { nombre: "Prensitas de lazo blanco", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensitas-blanco-perlas.jpeg" },
-  { nombre: "Prensitas de lazo rosado", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensitas-rosa-perlas.jpeg" },
-  { nombre: "Prensitas de lazo con flor", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensas-flores.jpeg" },
-  { nombre: "Prensitas con flores o donitas", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensitas-floresydonas.jpeg" },
+  { nombre: "Prensitas de lazo blanco", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Prensitas-blanco-perlas.jpeg" },
+  { nombre: "Prensitas de lazo rosado", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Prensitas-rosa-perlas.jpeg" },
+  { nombre: "Prensitas de lazo con flor", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Prensas-flores.jpeg" },
+  { nombre: "Prensitas con flores o donitas", precio: 600, detalle: "o 2 pares por ₡1.000", cat: "lazos", nuevo: true, img: "imagenes-catalogo/Prensitas-floresydonas.jpeg" },
   { nombre: "Prensitas de estrella", precio: 600, detalle: "por 2 unidades", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensitas-estrellas.jpeg" },
-  { nombre: "Prensitas clic", precio: 600, detalle: "el par", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensitas-normales.jpeg" }, // 
+  { nombre: "Prensitas clic", precio: 600, detalle: "el par", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensitas-normales.jpeg" },
   { nombre: "Prensitas Hello Kitty", precio: 600, detalle: "cada una o las 3 por ₡1.500", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensitas-HelloKitty.jpeg" },
-  { nombre: "Prensas grandes Hello Kitty", precio: 1000, detalle: "cada una", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensas-hellokitty.jpeg" }, // 
+  { nombre: "Prensas grandes Hello Kitty", precio: 1000, detalle: "cada una", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensas-hellokitty.jpeg" },
   { nombre: "Prensas grandes con puntitos", precio: 1500, detalle: "cada una", cat: "prensas", nuevo: true, img: "imagenes-catalogo/Prensas-grandes.jpeg" },
-  { nombre: "Vinchas con puntitos", precio: 1500, detalle: "cada una", cat: "vinchas", nuevo: true, img: "imagenes-catalogo/Vinchas.jpeg" }, // 
+  { nombre: "Vinchas con puntitos", precio: 1500, detalle: "cada una", cat: "vinchas", nuevo: true, img: "imagenes-catalogo/Vinchas.jpeg" },
 ];
 
 const NOMBRES_CAT = {
